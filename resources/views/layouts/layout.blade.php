@@ -72,25 +72,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <p>Dashboard</p>
                             </router-link>
                         </li>
-                        <li class="nav-item has-treeview">
+                        <li class="nav-item has-treeview open">
                             <a href="#" class="nav-link">
                                 <i class="fas fa-cog"></i>
-                                <p>
-                                    Gerenciamento <i class="right fa fa-angle-left"></i>
-                                </p>
+                                <p>Gerenciamento <i class="right fa fa-angle-left"></i></p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active">
-                                        <i class="fa fa-circle-o nav-icon"></i>
-                                        <p>Active Page</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="fa fa-circle-o nav-icon"></i>
-                                        <p>Inactive Page</p>
-                                    </a>
+                                    <router-link to="/users" class="nav-link">
+                                        <i class="fas fa-users nav-icon"></i>
+                                        <p>Users</p>                                        Users
+                                    </router-link>
                                 </li>
                             </ul>
                         </li>

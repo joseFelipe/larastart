@@ -22,3 +22,11 @@ $fa-font-path: "../webfonts";
     color: #212529 !important;
     background-color: #f4f4f5;
 }
+
+.nav-pills .nav-link:not(.active):hover {
+    color: #000;
+}
+
+.sidebar-light-primary .sidebar router-link {
+    color: #343a40;
+}
